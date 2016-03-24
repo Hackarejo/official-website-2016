@@ -1,0 +1,22 @@
+{
+  "name": "Hackarejo 2016",
+  "version": "0.1.0",
+  "description": "Official Hackarejo 2016 Website",
+  "authors": [
+    "ByIvo"
+  ],
+  "license": "ISC",
+  "private": "true",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5",
+    "bootstrap": "3.3",
+    "ngSmoothScroll": "1.7"
+  }
+}

@@ -1,0 +1,27 @@
+<html  ng-app="hackarejo">
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css">
+	<!-- build:style bundle -->
+	<link rel="stylesheet" href="css/hackarejo-website.css" type="text/css">
+	<!-- /build-->
+</head>
+<body class="fluid-container" ng-controller="main-controller">
+	
+	<div id="main" ng-include src="'partials/main.html'"></div>
+	<div id="what-is" ng-include src="'partials/what-is.html'"></div>
+	<div id="participants" ng-include src="'partials/participants.html'"></div>
+	<div smooth-scroll id="register" ng-include src="'partials/register.html'"></div>
+	
+
+	<!-- build:script bundle -->
+	<!--VENDOR-->
+	<script src="vendor/angular/angular.js" type="text/javascript"></script>
+	<script src="vendor/ngSmoothScroll/angular-smooth-scroll.min.js" type="text/javascript"></script>
+	<!--DEV-->
+	<script src="js/main.js" type="text/javascript"></script>
+	<!-- /build-->
+</body>
+</html>

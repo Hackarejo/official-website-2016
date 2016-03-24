@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'Ailerons';
+  src: url('../fonts/Ailerons-Typeface.otf');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoMono-Regular.ttf');
+}
+.main-division {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+.center-object {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+h1 {
+  color: #F9C71C;
+  font-family: 'Roboto Slab';
+  font-size: 3vw;
+}
+a {
+  text-decoration: none !important;
+}
+#main {
+  background-color: #9B59B6;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+#main ul.menu {
+  position: absolute;
+  right: 0;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  font-family: 'Ailerons';
+}
+#main ul.menu li {
+  float: left;
+  padding: 0 10px;
+}
+#main ul.menu li a {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+#main ul.menu li a:hover {
+  text-decoration: none;
+}
+#main .logo-container {
+  width: 50vmin;
+  height: 50vmin;
+}
+#main .logo-container svg {
+  width: 100%;
+  height: 100%;
+}
+#what-is {
+  background-color: #9B59B6;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+#what-is .info {
+  margin-top: 10vw;
+}
+#what-is p {
+  font-family: 'Roboto';
+  color: #FFFFFF;
+  font-size: 1.5vmax;
+  margin-top: 20px;
+}
+#participants {
+  background-color: #9B59B6;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+#participants .participant {
+  padding: 20px;
+}
+#participants .participant .main-content {
+  background-color: #D794DB;
+  border-radius: 10px;
+  border-top: 10px solid #F9C71C;
+  position: relative;
+}
+#participants .participant .main-content .title-participant {
+  color: #F9C71C;
+  font-family: 'Ailerons';
+  font-size: 2vmax;
+  font-weight: bold;
+}
+#participants .participant .main-content .info-participant {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: all ease 0.2s;
+  top: 0;
+  background-color: #F9C71C;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+#participants .participant .main-content .info-participant p {
+  color: #9B59B6;
+  font-face: 'Roboto';
+}
+#participants .participant .main-content svg {
+  width: 50%;
+  height: 50%;
+}
+#participants .participant:hover .info-participant {
+  height: 90%;
+}
+#register {
+  background-color: #D794DB;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+#register .register-button {
+  width: 40%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #F9C71C;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Ailerons';
+  font-size: 30px;
+}

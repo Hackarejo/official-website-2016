@@ -1,0 +1,49 @@
+#participants {
+	background-color: @secondary-color-normal;
+	.main-division();
+	
+	.participant {
+		padding: 20px;
+
+		.main-content {
+			background-color: @secondary-color-light;
+			border-radius: 10px;
+			border-top: 10px solid @primary-color-normal;
+			position: relative;
+
+			.title-participant {
+				color: @primary-color-normal;
+				font-family: 'Ailerons';
+				font-size: 2vmax;
+				font-weight: bold;
+			}
+
+			.info-participant {
+				position: absolute;
+				width: 100%;
+				height: 0;
+				transition: all ease 0.2s;
+				top: 0;
+				background-color: @primary-color-normal;
+				border-radius: 0 0 10px 10px;
+				overflow: hidden;
+
+  			p {
+  				color: @secondary-color-normal;
+  				font-face: 'Roboto';
+  			}
+			}
+
+			svg {
+				width: 50%;
+				height: 50%;
+			}
+		}
+
+		&:hover {
+			.info-participant {
+				height: 90%;
+			}
+		}
+	}
+}
