@@ -1,25 +1,29 @@
 #main {
-	background-color: @secondary-color-normal;
+	background: url('../img/bg-sponsor.jpg') @secondary-color-normal repeat;
 	.main-division();
 
-	ul.menu {
-		position: absolute;
-		right: 0;
-		list-style: none;
-		padding: 15px;
-  	margin: 0;
-  	font-family: 'Ailerons';
+	ul {
+		background-color: @secondary-color-normal;
 
-		li {
-			float: left;
-			padding: 0 10px;
+		&.menu {
+			position: absolute;
+			right: 0;
+			list-style: none;
+			padding: 5px;
+			margin: 0;
+			font-family: 'Ailerons';
 
-			a {
-				font-size: 20px;
-				color: @white;
+			li {
+				float: left;
+				padding: 0 10px;
 
-				&:hover {
-					text-decoration: none;
+				a {
+					font-size: 20px;
+					color: @white;
+
+					&:hover {
+						text-decoration: none;
+					}
 				}
 			}
 		}
@@ -32,6 +36,22 @@
 		svg {
 			width: 100%;
 			height: 100%;
+		}
+	}
+
+	.realization-container {
+		position: absolute;
+		bottom: 0px;
+		margin: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90%;
+		max-height: 22vh;
+		overflow: hidden;
+
+		img.realizator {
+			max-width: 22vh;
+			max-height: 22vh;
 		}
 	}
 }

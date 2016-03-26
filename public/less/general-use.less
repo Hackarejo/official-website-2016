@@ -1,10 +1,26 @@
-.main-division {
-	min-height: 100%;
+.normal-division {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	float: right;
 	position: relative;
+}
+
+.main-division {
+	min-height: 100%;
+	.normal-division();
+}
+
+.center-horizontal {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.center-vertical {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .center-object {
