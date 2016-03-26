@@ -18,6 +18,8 @@
     "angular": "1.5",
     "bootstrap": "3.3",
     "ngSmoothScroll": "1.7",
-    "wowjs": "~1.1.2"
+    "wowjs": "~1.1.2",
+    "animate.css": "~3.5.1",
+    "ui-leaflet": "~1.0.0"
   }
 }

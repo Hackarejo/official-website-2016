@@ -176,6 +176,18 @@ body {
 #participants .participant:hover .info-participant {
   height: 90%;
 }
+#info {
+  background-color: #9B59B6;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+}
+#info #map {
+  height: 100%;
+}
 #register {
   background-color: #D794DB;
   min-height: 100%;

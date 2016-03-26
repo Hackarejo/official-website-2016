@@ -1,4 +1,4 @@
-var app= angular.module('hackarejo', ['smoothScroll']);
+var app= angular.module('hackarejo', ['smoothScroll', 'nemLogging', 'ui-leaflet']);
 
 app.config(function() {
 	new WOW().init();

@@ -5,7 +5,9 @@ module.exports = function(grunt) {
 		vendorScriptFiles: [
 			'vendor/angular/angular.min.js',
 			'vendor/ngSmoothScroll/angular-smooth-scroll.min.js',
-			'vendor/wowjs/dist/wow.min.js'
+			'vendor/wowjs/dist/wow.min.js',
+			'vendor/angular-simple-logger/dist/angular-simple-logger.js',
+			'vendor/ui-leaflet/dist/ui-leaflet.js'
 		],
 
 		personalScriptFiles: [
@@ -15,7 +17,8 @@ module.exports = function(grunt) {
 		stylesheetFiles:[
 			'vendor/bootstrap/dist/css/bootstrap.min.css',
 			'vendor/bootstrap/dist/css/bootstrap-theme.min.css',
-			'vendor/animate/animate.min.css'
+			'vendor/animate.css/animate.min.css',
+			'vendor/leaflet/dist/leaflet.css'
 		],
 
 		jshint: {

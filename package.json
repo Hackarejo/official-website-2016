@@ -4,8 +4,7 @@
 	"description": "Official Hackarejo 2016 website",
 	"scripts": {
 		"install": [
-			"bower install",
-			"git clone https://github.com/daneden/animate.css public/vendor/animate"
+			"bower install"
 		]
 	},
 	"license": "ISC",
