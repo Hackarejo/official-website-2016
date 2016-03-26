@@ -3,7 +3,10 @@
 	"version": "0.1.0",
 	"description": "Official Hackarejo 2016 website",
 	"scripts": {
-		"install": "bower install"
+		"install": [
+			"bower install",
+			"git clone https://github.com/daneden/animate.css public/vendor/animate"
+		]
 	},
 	"license": "ISC",
 	"author": "ByIvo",

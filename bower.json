@@ -17,6 +17,7 @@
   "dependencies": {
     "angular": "1.5",
     "bootstrap": "3.3",
-    "ngSmoothScroll": "1.7"
+    "ngSmoothScroll": "1.7",
+    "wowjs": "~1.1.2"
   }
 }

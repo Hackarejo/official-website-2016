@@ -32,6 +32,9 @@ h1 {
 a {
   text-decoration: none !important;
 }
+body {
+  overflow-x: hidden;
+}
 #main {
   background-color: #9B59B6;
   min-height: 100%;
