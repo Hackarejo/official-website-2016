@@ -55,12 +55,11 @@ body {
   z-index: 9999;
 }
 .upside-bar .home-icon {
-  margin: 5px;
+  margin: 15px;
 }
-.upside-bar .home-icon svg {
-  width: 50px;
-  height: 40px;
-  max-height: 40px;
+.upside-bar .home-icon img {
+  width: 70px;
+  height: auto;
 }
 .upside-bar ul.menu {
   list-style: none;
