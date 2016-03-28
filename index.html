@@ -1,9 +1,12 @@
 <html  ng-app="hackarejo">
 <head>
-	<title></title>
+	<title>Hackarejo 2016</title>
 
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
 	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css">
+	<link rel="stylesheet" href="vendor/animate.css/animate.min.css" type="text/css">
+
 <link type="text/css" rel="stylesheet" href="css/hackarejo-website.min.css" />
 </head>
 <body class="fluid-container" ng-controller="main-controller">
@@ -11,11 +14,18 @@
 	<div id="main" ng-include src="'partials/main.html'"></div>
 	<div id="what-is" ng-include src="'partials/what-is.html'"></div>
 	<div id="participants" ng-include src="'partials/participants.html'"></div>
-	<div smooth-scroll id="register" ng-include src="'partials/register.html'"></div>
+	<div id="info" ng-include src="'partials/info.html'"></div>
+	<div id="register" ng-include src="'partials/register.html'"></div>
+	<!-- <div id="sponsors" ng-include src="'partials/sponsors.html'"></div> -->
 	
-
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
 <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
 <script type="text/javascript" src="vendor/ngSmoothScroll/angular-smooth-scroll.min.js"></script>
+<script type="text/javascript" src="vendor/wowjs/dist/wow.min.js"></script>
+<script type="text/javascript" src="vendor/angular-simple-logger/dist/angular-simple-logger.js"></script>
+<script type="text/javascript" src="vendor/ui-leaflet/dist/ui-leaflet.js"></script>
 <script type="text/javascript" src="js/hackarejo-website.min.js"></script>
+
+
 </body>
 </html>
