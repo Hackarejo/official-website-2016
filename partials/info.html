@@ -1,7 +1,26 @@
 <div class="container-fluid">
 	<div class="row">
-	<div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
-			<leaflet id="map"></leaflet>
+		<div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+			<leaflet lf-center="citfb" markers="marker" id="map"></leaflet>
+		</div>
+
+		<div class="info-hackarejo col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			<h1 class="text-center">Local </h1>
+			<p class="text-center"> CITFBE</p>
+			<p class="text-center"> (Centro de Inovação e Tecnologia de Francisco Beltrão)</p>
+			<p class="text-center">Rua Elias Scalco, 405 - Esquina com Tenente Camargo. Bairro Luther King - 85605-400 - Francisco Beltrão - PR</p>
+
+			<h1 class="text-center">Dias</h1>
+			<p class="text-center"> 15/04/2016 - 19:30</p>
+			<p class="text-center"> 16/04/2016 - 09:00</p>
+			<p class="text-center"> 17/04/2016 - 00:00</p>
+
+			<h1 class="text-center">Traçar rota</h1>
+			<div class="col-xs-12">
+				<a href="https://goo.gl/ePJJ0w" target="_blank"> 
+					<div ng-include="'img/route.svg?1'" class="route text-center img-responsive"></div>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
