@@ -2,16 +2,40 @@
 	background-color: @secondary-color-light;
 	.main-division();
 
-	.register-button {
-		width: 40%;
-		height: 50px;
-		border-radius: 10px;
-		background-color: @primary-color-normal;
+	.options {
+		width: 100%;
+		height: auto;
 
-		color: @white;
-		text-align: center;
-		line-height: 50px;
-		font-family: 'Ailerons';
-		font-size: 30px;
+		a.option-button {
+
+			div{
+				height: 50px;
+				margin: 5px 0;
+				width: 100%;
+				border-radius: 10px;
+
+				text-align: center;
+				line-height: 50px;
+				font-family: 'Ailerons';
+				font-size: 30px;
+				transition: all ease 0.2s;
+
+				&:hover {
+
+					transform: scale(1.1, 1.1);
+
+				}
+			}
+		}
+
+		.register-button div{
+			background-color: @primary-color-normal;
+			color: @white;
+		}
+
+		.rules-button div{
+			background-color: @white;
+			color: @secondary-color-normal;
+		}
 	}
 }
