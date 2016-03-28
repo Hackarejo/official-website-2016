@@ -10,15 +10,7 @@
   font-family: 'Roboto';
   src: url('../fonts/RobotoMono-Regular.ttf');
 }
-.normal-division {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
-}
 .main-division {
-  min-height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -89,12 +81,6 @@ body {
 }
 #main {
   background: url('../img/bg-sponsor.png') #9B59B6 repeat;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #main .logo-container {
   width: 50vmin;
@@ -106,12 +92,6 @@ body {
 }
 #sponsors {
   background-color: #9B59B6;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #sponsors img {
   transition: all ease 0.5s;
@@ -121,12 +101,6 @@ body {
 }
 #what-is {
   background-color: #9B59B6;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #what-is .info {
   margin-top: 10vw;
@@ -139,12 +113,6 @@ body {
 }
 #participants {
   background-color: #9B59B6;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #participants .participant {
   padding: 20px;
@@ -184,12 +152,6 @@ body {
 }
 #info {
   background-color: #9B59B6;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #info #map {
   height: 100%;
@@ -216,12 +178,6 @@ body {
 }
 #register {
   background-color: #D794DB;
-  min-height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
 }
 #register .options {
   width: 100%;

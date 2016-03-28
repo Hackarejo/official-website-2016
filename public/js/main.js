@@ -4,7 +4,7 @@ app.config(function() {
 	new WOW().init();
 });
 
-app.controller('main-controller', function($scope) {
+app.controller('main-controller', function($scope, $window, $document) {
 	var hackLat = -26.069740;
 	var hackLng = -53.043451;
 
@@ -25,4 +25,5 @@ app.controller('main-controller', function($scope) {
 			}
 		}
 	});
+
 });

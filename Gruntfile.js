@@ -11,7 +11,8 @@ module.exports = function(grunt) {
 		],
 
 		personalScriptFiles: [
-			'public/js/main.js'
+			'public/js/main.js',
+			'public/js/minHeightDirective.js'
 		],
 
 		stylesheetFiles:[
