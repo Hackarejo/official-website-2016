@@ -173,7 +173,7 @@ body {
 }
 #participants .participant .main-content .info-participant p {
   color: #9B59B6;
-  font-face: 'Roboto';
+  font-family: 'Roboto';
 }
 #participants .participant .main-content svg {
   width: 50%;
