@@ -98,6 +98,14 @@ body {
 #sponsors img:hover {
   transform: scale(1.1, 1.1);
 }
+.silver-sponsor {
+  width: 200px;
+  height: 200px;
+}
+.gold-sponsor {
+  width: 300px;
+  height: 300px;
+}
 #what-is {
   background-color: #9B59B6;
 }
