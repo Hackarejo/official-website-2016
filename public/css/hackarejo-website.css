@@ -98,6 +98,10 @@ body {
 #sponsors img:hover {
   transform: scale(1.1, 1.1);
 }
+.support-sponsor {
+  width: 150px;
+  height: 150px;
+}
 .silver-sponsor {
   width: 200px;
   height: 200px;
