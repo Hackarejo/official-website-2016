@@ -92,23 +92,49 @@ body {
 #sponsors {
   background-color: #9B59B6;
 }
-#sponsors img {
+#sponsors .row {
+  margin-bottom: 20px;
+}
+#sponsors div.sponsor {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  margin: auto;
+  padding: 20px;
   transition: all ease 0.5s;
+  box-shadow: 5px 8px 10px #333333;
+  margin-bottom: 20px;
 }
-#sponsors img:hover {
+#sponsors div.sponsor img {
+  width: 100%;
+  height: 100%;
+}
+#sponsors div.sponsor:hover {
   transform: scale(1.1, 1.1);
+  box-shadow: 10px 16px 10px #333333;
 }
-.support-sponsor {
+#sponsors div.sponsor.team-sponsor {
+  width: 100px;
+  height: 100px;
+}
+#sponsors div.sponsor.support-sponsor {
   width: 150px;
   height: 150px;
 }
-.silver-sponsor {
+#sponsors div.sponsor.special-support-sponsor {
   width: 200px;
   height: 200px;
 }
-.gold-sponsor {
-  width: 300px;
-  height: 300px;
+#sponsors div.sponsor.bronze-sponsor {
+  width: 200px;
+  height: 200px;
+}
+#sponsors div.sponsor.silver-sponsor {
+  width: 250px;
+  height: 250px;
+}
+#sponsors div.sponsor.gold-sponsor {
+  width: 350px;
+  height: 350px;
 }
 #what-is {
   background-color: #9B59B6;
