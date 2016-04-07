@@ -80,6 +80,7 @@ body {
 }
 #main {
   background: url('../img/bg-sponsor.png') #9B59B6 repeat;
+  background-size: 400px;
 }
 #main .logo-container {
   width: 50vmin;
