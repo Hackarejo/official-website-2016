@@ -137,6 +137,9 @@ body {
   width: 350px;
   height: 350px;
 }
+#sponsors div.sponsor.gold-sponsor-special-padding {
+  padding: 50px;
+}
 #what-is {
   background-color: #9B59B6;
 }
